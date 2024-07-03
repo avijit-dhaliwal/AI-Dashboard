@@ -2,9 +2,12 @@
     "name": "explainable-ai-dashboard",
     "version": "1.0.0",
     "private": true,
+    "engines": {
+      "node": "20.x"
+    },
     "scripts": {
       "start": "cd frontend && npm start",
-      "build": "cd frontend && NODE_OPTIONS='--openssl-legacy-provider' npm install && npm run build"
+      "build": "cd frontend && npm install && npm run build"
     },
     "dependencies": {
       "axios": "^0.21.1"
