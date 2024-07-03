@@ -1,0 +1,12 @@
+{
+    "name": "explainable-ai-dashboard",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+      "start": "cd frontend && npm start",
+      "build": "cd frontend && npm run build"
+    },
+    "dependencies": {
+      "axios": "^0.21.1"
+    }
+  }
